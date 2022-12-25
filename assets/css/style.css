@@ -1,3 +1,31 @@
 body {
     font-family: "Roboto", sans-serif;
+    background-color: #333333;
+    color: white;
+}
+
+/*Header*/
+h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+/*Game area*/
+
+.game-area {
+    background-color: #643173;
+    width: 75%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+button {
+    border: 1px solid #333333;
+    background-color: white;
+    color: #333333;
+    border-radius: 5px;
+    padding: 6px;
+    font-weight: bold;
 }
