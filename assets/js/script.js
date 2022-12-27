@@ -9,6 +9,9 @@ const playerImg = document.getElementById('player-image')
 const resetButton = document.getElementById('reset')
 
 let userChoice;
+let cpuChoice;
+let cpuScore;
+let yourScore;
 let yourNewScore = document.getElementById('your-score')
 let cpuNewScore = document.getElementById('cpu-score')
 
