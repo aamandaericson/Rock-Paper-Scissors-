@@ -71,22 +71,22 @@ function getResult() {
     if (cpuChoice === userChoice) {
         result = 'Draw!';
     } else if (cpuChoice === 'rock' && userChoice ==='paper') {
-        result = 'Paper beats rock! You get a point!';
+        result = 'You get a point!';
         incrementScore();
     } else if (cpuChoice === 'rock' && userChoice ==='scissors') {
-        result = 'Rock beats scissors! Computer get a point!';
+        result = 'Computer get a point!';
         incrementComputerScore();
     } else if (cpuChoice === 'paper' && userChoice ==='scissors') {
-        result = 'Scissors beats paper! You get a point!';
+        result = 'You get a point!';
         incrementScore();
     } else if (cpuChoice === 'paper' && userChoice ==='rock') {
-        result = 'Paper beats rock! Computer get a point!';
+        result = 'Computer get a point!';
         incrementComputerScore();
     } else if (cpuChoice === 'scissors' && userChoice ==='rock') {
-        result = 'Rock beats scissors! You get a point!';
+        result = 'You get a point!';
         incrementScore();
     } else if (cpuChoice === 'scissors' && userChoice ==='paper') {
-        result = 'scissors beats paper! Computer get a point!';
+        result = 'Computer get a point!';
         incrementComputerScore();
     } else {
         alert(`Choose Rock, Paper or scissors!`);
