@@ -43,19 +43,17 @@ function generateCpuChoice() {
     if (randomNumber === 1) {
         cpuChoice = 'rock'
         cpuImg.src = 'assets/images/rock.jpg'
-        cpuImg.alt = 'Person making a rock with their hand'
+        cpuImg.alt = 'rock'
     }
-
     if (randomNumber === 2) {
         cpuChoice = 'paper'
         cpuImg.src = 'assets/images/paper.jpg'
-        cpuImg.alt = 'Person making a paper with their hand'
+        cpuImg.alt = 'paper'
     }
-
     if (randomNumber === 3) {
         cpuChoice = 'scissors'
         cpuImg.src = 'assets/images/scissors.jpg'
-        cpuImg.alt = 'Person making a scissor with their hand'
+        cpuImg.alt = 'scissors'
     }
 
     cpuChoiceDisplay.innerHTML = cpuChoice;
@@ -103,10 +101,13 @@ function getResult() {
 function showImage(){
     if (userChoice === 'rock') {
         playerImg.src = `assets/images/rock.jpg`;
+        playerImg.alt = `rock`
     } else if (userChoice === 'paper') {
         playerImg.src = `assets/images/paper.jpg`;
+        playerImg.alt = `paper`
     } else {
         playerImg.src = `assets/images/scissors.jpg`;
+        playerImg.alt = `scissors`
     }
 }
 
