@@ -4,6 +4,7 @@ const userChoiceDisplay = document.getElementById('your-choice')
 const cpuChoiceDisplay = document.getElementById('cpu-choice')
 const resultDisplay = document.getElementById('result')
 const possibleChoices = document.getElementsByClassName('button')
+const cpuImg = document.getElementById('cpu-image')
 
 let userChoice;
 let cpuChoice;
@@ -23,27 +24,35 @@ function init() {
         };
     };
 
-    /**
-     * Generate the computer choice and 
-     */
+/**
+ * Generate computerscore and add corresponding image with alt value.
+ */
 function generateCpuChoice() {
 
     const randomNumber = Math.floor(Math.random() * 3) + 1; 
 
     if (randomNumber === 1) {
         cpuChoice = 'rock'
+        cpuImg.src = 'assets/images/rock.jpg'
+        cpuImg.alt = 'Person making a rock with their hand'
     }
 
     if (randomNumber === 2) {
         cpuChoice = 'paper'
+        cpuImg.src = 'assets/images/paper.jpg'
+        cpuImg.alt = 'Person making a paper with their hand'
     }
 
     if (randomNumber === 3) {
         cpuChoice = 'scissors'
+        cpuImg.src = 'assets/images/scissors.jpg'
+        cpuImg.alt = 'Person making a scissor with their hand'
     }
+
     cpuChoiceDisplay.innerHTML = cpuChoice;
 
 }
+
 
 
 
