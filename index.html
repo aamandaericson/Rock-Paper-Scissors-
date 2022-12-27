@@ -14,16 +14,19 @@
     </header>
     <div class="game-area">
         <h2>What Will you Choose?</h2>
+        <p>Round Result: <span id="result"></span></p>
         <div id="hidden div">
         <!--Here the final result of the game will display-->
         <span id="win-or-loose"></span>
         </div>
         <div class="choice left-div">
             <p>You:</p>
+            <span id="your-score"></span>
             <img src="assets/images/rock.jpg" alt="Person making a rock with their hand">
         </div>
         <div class="choice right-div">
             <p>CPU:</p>
+            <span id="cpu-score"></span>
             <img src="assets/images/scissors.jpg" alt="Person making a scissor with their hand">
         </div>
         <div>
@@ -31,11 +34,7 @@
             <button class="button" data-type="paper">Paper <i class="fa-regular fa-hand"></i></button>
             <button class="button" data-type="scissors">Scissors <i class="fa-regular fa-hand-scissors"></i></button>
         </div>
-        <div>
-            <p>Round Result: <span id="result"></span></p>
-            <p>Your Score: <span id="your-score"></span></p>
-            <p>Computer Score:<span id="cpu-score"></span></p>
-        </div>
+
     </div>
     
     <script src="https://kit.fontawesome.com/19e9aeb4f6.js" crossorigin="anonymous"></script>
