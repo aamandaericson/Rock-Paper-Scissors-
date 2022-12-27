@@ -33,6 +33,7 @@ function init() {
         };
     };
 
+// The base in the following function was taken from a youTube tutorial, full credit in README. 
 /**
  * Generate computerscore and add corresponding image with alt value.
  */
