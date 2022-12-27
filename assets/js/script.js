@@ -11,8 +11,9 @@ let userChoice;
 let cpuChoice;
 let cpuScore;
 let yourScore;
-let yourNewScore = document.getElementById("your-score")
-let cpuNewScore = document.getElementById("cpu-score")
+let yourNewScore = document.getElementById('your-score')
+let cpuNewScore = document.getElementById('cpu-score')
+
 
  /*Wait for the DOM to finnish loading before start. Get the button elements by class name and add event listeners to them.
  Display user choice */
@@ -27,6 +28,7 @@ function init() {
             generateCpuChoice()
             getResult()
             incrementScore()
+            incrementComputerScore()
             });
         };
     };
@@ -107,8 +109,15 @@ function showImage(){
  */
 function incrementScore() {
     if (cpuNewScore.innerText < 5 && yourNewScore.innerText < 5) {
-        yourScore = parseInt(document.getElementById("your-score").innerText);
+        yourScore = parseInt(document.getElementById('your-score').innerText);
         yourNewScore.innerText = ++yourScore;
+    }
+}
+
+function incrementComputerScore() {
+    if (cpuNewScore.innerText < 5 && yourNewScore.innerText < 5) {
+        cpuScore = parseInt(document.getElementById('cpu-score').innerText);
+        cpuNewScore.innerText = ++cpuScore;
     }
 }
 
