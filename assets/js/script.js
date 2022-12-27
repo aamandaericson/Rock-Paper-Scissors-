@@ -118,6 +118,9 @@ function incrementScore() {
     }
 }
 
+/**
+ * Increment current score and set it to a maximum of 5 points.
+ */
 function incrementComputerScore() {
     if (cpuNewScore.innerText < 5 && yourNewScore.innerText < 5) {
         cpuScore = parseInt(document.getElementById('cpu-score').innerText);
