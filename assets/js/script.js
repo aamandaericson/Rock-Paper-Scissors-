@@ -9,6 +9,10 @@ const playerImg = document.getElementById('player-image')
 
 let userChoice;
 let cpuChoice;
+let cpuScore;
+let yourScore;
+let yourNewScore = document.getElementById("your-score")
+let cpuNewScore = document.getElementById("cpu-score")
 
  /*Wait for the DOM to finnish loading before start. Get the button elements by class name and add event listeners to them.
  Display user choice */
@@ -22,6 +26,7 @@ function init() {
             userChoiceDisplay.innerHTML = userChoice;
             generateCpuChoice()
             getResult()
+            incrementScore()
             });
         };
     };
@@ -94,6 +99,16 @@ function showImage(){
         playerImg.src = `assets/images/paper.jpg`;
     } else {
         playerImg.src = `assets/images/scissors.jpg`;
+    }
+}
+
+/**
+ * Increment current score and set it to a maximum of 5 points.
+ */
+function incrementScore() {
+    if (cpuNewScore.innerText < 5 && yourNewScore.innerText < 5) {
+        yourScore = parseInt(document.getElementById("your-score").innerText);
+        yourNewScore.innerText = ++yourScore;
     }
 }
 
