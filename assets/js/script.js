@@ -6,6 +6,7 @@ const resultDisplay = document.getElementById('result')
 const possibleChoices = document.getElementsByClassName('button')
 const cpuImg = document.getElementById('cpu-image')
 const playerImg = document.getElementById('player-image')
+const resetButton = document.getElementById('reset')
 
 let userChoice;
 let cpuChoice;
@@ -115,6 +116,7 @@ function incrementScore() {
     if (cpuNewScore.innerText < 5 && yourNewScore.innerText < 5) {
         yourScore = parseInt(document.getElementById('your-score').innerText);
         yourNewScore.innerText = ++yourScore;
+        resetGame()
     }
 }
 
@@ -125,8 +127,23 @@ function incrementComputerScore() {
     if (cpuNewScore.innerText < 5 && yourNewScore.innerText < 5) {
         cpuScore = parseInt(document.getElementById('cpu-score').innerText);
         cpuNewScore.innerText = ++cpuScore;
+        resetGame()
     }
 }
+
+/**
+  * Add event listener to reset button and sets computer and user score to 0. Resets the game.
+  */
+
+function resetGame() {
+    resetButton.addEventListener('click', function(){
+    cpuScore = 0
+    yourScore = 0
+    
+    cpuNewScore.innerText = 0
+    yourNewScore.innerText = 0
+    })
+};
 
 
 
