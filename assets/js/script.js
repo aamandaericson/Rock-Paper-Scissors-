@@ -74,19 +74,19 @@ function getResult() {
         result = 'You get a point!';
         incrementScore();
     } else if (cpuChoice === 'rock' && userChoice ==='scissors') {
-        result = 'Computer get a point!';
+        result = 'Computer gets a point!';
         incrementComputerScore();
     } else if (cpuChoice === 'paper' && userChoice ==='scissors') {
         result = 'You get a point!';
         incrementScore();
     } else if (cpuChoice === 'paper' && userChoice ==='rock') {
-        result = 'Computer get a point!';
+        result = 'Computer gets a point!';
         incrementComputerScore();
     } else if (cpuChoice === 'scissors' && userChoice ==='rock') {
         result = 'You get a point!';
         incrementScore();
     } else if (cpuChoice === 'scissors' && userChoice ==='paper') {
-        result = 'Computer get a point!';
+        result = 'Computer gets a point!';
         incrementComputerScore();
     } else {
         alert(`Choose Rock, Paper or scissors!`);
