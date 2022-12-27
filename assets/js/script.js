@@ -23,6 +23,7 @@ document.addEventListener("DOMContentLoaded", init());
 
 function init() {
     for (let possibleChoice of possibleChoices) {
+        addResetEvent()
         possibleChoice.addEventListener("click", function() {
             userChoice = this.getAttribute("data-type"); 
             userChoiceDisplay.innerHTML = userChoice;
@@ -116,7 +117,14 @@ function incrementScore() {
     if (cpuNewScore.innerText < 5 && yourNewScore.innerText < 5) {
         yourScore = parseInt(document.getElementById('your-score').innerText);
         yourNewScore.innerText = ++yourScore;
-        resetGame()
+    }
+    if (yourNewScore.innerText == 5) {
+        alert('YOU WON! Click ok to restart the game')
+        cpuScore = 0
+        yourScore = 0
+    
+        cpuNewScore.innerText = 0
+        yourNewScore.innerText = 0
     }
 }
 
@@ -127,7 +135,14 @@ function incrementComputerScore() {
     if (cpuNewScore.innerText < 5 && yourNewScore.innerText < 5) {
         cpuScore = parseInt(document.getElementById('cpu-score').innerText);
         cpuNewScore.innerText = ++cpuScore;
-        resetGame()
+    }
+    if (cpuNewScore.innerText == 5) {
+        alert('YOU LOSE Click ok to restart the game')
+        cpuScore = 0
+        yourScore = 0
+    
+        cpuNewScore.innerText = 0
+        yourNewScore.innerText = 0
     }
 }
 
@@ -135,7 +150,7 @@ function incrementComputerScore() {
   * Add event listener to reset button and sets computer and user score to 0. Resets the game.
   */
 
-function resetGame() {
+function addResetEvent() {
     resetButton.addEventListener('click', function(){
     cpuScore = 0
     yourScore = 0
