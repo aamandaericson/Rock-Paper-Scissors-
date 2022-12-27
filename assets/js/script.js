@@ -13,8 +13,8 @@ let cpuChoice;
 let cpuScore;
 let yourScore;
 let result;
-let yourNewScore = document.getElementById('your-score')
-let cpuNewScore = document.getElementById('cpu-score')
+let yourNewScore = document.getElementById('your-score');
+let cpuNewScore = document.getElementById('cpu-score');
 
 
  /*Wait for the DOM to finnish loading before start. Get the button elements by class name and add event listeners to them.
