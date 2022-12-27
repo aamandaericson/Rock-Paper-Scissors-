@@ -5,6 +5,7 @@ const cpuChoiceDisplay = document.getElementById('cpu-choice')
 const resultDisplay = document.getElementById('result')
 const possibleChoices = document.getElementsByClassName('button')
 const cpuImg = document.getElementById('cpu-image')
+const playerImg = document.getElementById('player-image')
 
 let userChoice;
 let cpuChoice;
@@ -51,7 +52,7 @@ function generateCpuChoice() {
     }
 
     cpuChoiceDisplay.innerHTML = cpuChoice;
-
+    showImage ()
 }
 
 /**
@@ -79,9 +80,22 @@ function getResult() {
         throw `unidentified choice`;
     }
 
-    resultDisplay.innerHTML = result  
-
+    resultDisplay.innerHTML = result
+    showImage()
 } 
+
+/**
+ * Display user image depending on userchoice
+ */
+function showImage(){
+    if (userChoice === 'rock') {
+        playerImg.src = `assets/images/rock.jpg`;
+    } else if (userChoice === 'paper') {
+        playerImg.src = `assets/images/paper.jpg`;
+    } else {
+        playerImg.src = `assets/images/scissors.jpg`;
+    }
+}
 
 
 
