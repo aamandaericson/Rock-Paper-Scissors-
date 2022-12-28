@@ -70,7 +70,7 @@ Rock, Paper Scissors is a fun online game to play by yourself or together with o
 
    * Pink
    <br>
-   
+
    ![Image of pink color](assets/images/pink.PNG)
 
 
