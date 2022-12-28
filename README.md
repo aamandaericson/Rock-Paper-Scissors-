@@ -1,5 +1,5 @@
 # Rock, Paper, Scissors
-Rock, Paper Scissors is a fun game online game to play by yourself or together with others! You play against a computer which generates a random descision and your challenge is to beat the CPU! You can sit with your friends or just play a while alone if you are bored and got some time to spare. 
+Rock, Paper Scissors is a fun online game to play by yourself or together with others! You play against a computer which generates a random descision and your challenge is to beat the CPU! You can sit with your friends or just play a while alone if you are bored and got some time to spare. 
 
 ![Image of site on different devices](assets/images/am-I-responsive.PNG)
 
@@ -22,9 +22,6 @@ Rock, Paper Scissors is a fun game online game to play by yourself or together w
   <br>
 
   ![Image of result images](assets/images/images-of-result.PNG)
-
-
-
 
 * Game options
   * There are three game options, all buttons which all clearly states what choice they represent. Each button as well has an icon that represents each choice to make it even more clear
@@ -69,6 +66,7 @@ Rock, Paper Scissors is a fun game online game to play by yourself or together w
    ![Image of light house check](assets/images/lighthouse.PNG)
 
 ### Bugs 
+  #### Solved bugs
    * When I first deployed my page, the scores of the computer and user only whent up to five but you could still play the game (without the score incrementing). By setting the scores to zero when 5 was reached as well as adding the alert to make sure game is restarted this was solved. 
 
 ### Validator testing
