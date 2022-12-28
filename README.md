@@ -63,6 +63,7 @@ Rock, Paper Scissors is a fun game online game to play by yourself or together w
    * I confirmed that the game results are always correct. 
    * I confirmed that all the parts (with different colors and fonts) of the website are readable and easy to understand.
    * I confirmed that the site is responsive and works well on different screen types (Se Responiveness section above) by running a lighthouse check. 
+   * No errors where found when checking the javaScript code in JsHint
    <br>
 
    ![Image of light house check](assets/images/lighthouse.PNG)
@@ -75,6 +76,7 @@ Rock, Paper Scissors is a fun game online game to play by yourself or together w
      * No errors where returned when passing through the official W3C validator.
    * CSS 
      * No errors where found when passing the CSS code through the official (Jigsaw) CSS validator.  
+
 
 
 
