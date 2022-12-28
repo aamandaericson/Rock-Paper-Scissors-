@@ -72,3 +72,7 @@ footer {
     width: 75%;
     margin: 15px auto;
 }
+
+footer a {
+    font-size: 1.4rem
+}
