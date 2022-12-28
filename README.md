@@ -14,7 +14,9 @@ Rock, Paper Scissors is a fun online game to play by yourself or together with o
   * What is first shown in this section is a promt for the user to make a choice by the text "What will you choose"
   * When the user has pressed a button below the result will be shown at the top of the game area. This will show if the computer or the user won the round.
   <br>
+
   ![Image of result](assets/images/result.PNG)
+
 
 * Images of the choices
   * When the user click a choice button the choice displays below the result area. The generated computer choice also displays.
@@ -51,6 +53,22 @@ Rock, Paper Scissors is a fun online game to play by yourself or together with o
 
 ### Features left to implement
    * When there is time I would like to implement a feature where the user will, instead of receiving an alert box, would get a result message on the site it self and not from a pop up. The javaScipt code is created in a way so that if the score of either user or computer reaches five the score will not increment. This means that if a possible message would appear on the screen it could just have a prompt to press the reset score button and the game would work just fine. 
+
+## Design
+   * The design of this site was made with with the intention of using playful colors to fit the game feeling as well as doing an easy navigate website which is user friendly and easy to use as a first time user. 
+### Color Scheme
+   * I overall wanted playfull colors and I implemented this by basing the color scheme of the images I used to display the user and computer choices. I used a hex color picker where I loaded up one of the images and then picked the colors from the post its in the background. Then I just used a grey color in the body (except for the Header) for contrast.
+   * Yellow
+   <br>
+   ![Image of yellow color](assets/images/yellow.PNG)
+   * Blue 
+   <br>
+   ![Image of blue color](assets/images/blue.PNG)
+   * Pink
+   <br>
+   ![Image of pink color](assets/images/pink.PNG)
+
+
 
 ## Responsiveness 
    * This site use no media queries. Instead I added a width of 75 % which makes the site responive and looks good on all devices. 
