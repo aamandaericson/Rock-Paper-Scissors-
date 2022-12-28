@@ -18,6 +18,7 @@ Rock, Paper Scissors is a fun game online game to play by yourself or together w
 * Images of the choices
   * When the user click a choice button the choice displays below the result area. The generated computer choice also displays.
   * As well as the text of the choice is displayed, the image also change depending on the user choice and the generated computer choice. 
+  <br>
 
   ![Image of result images](assets/images/images-of-result.PNG)
 
@@ -34,7 +35,9 @@ Rock, Paper Scissors is a fun game online game to play by yourself or together w
 
 * Score 
   * The score section displays yours and the computers current score.
+  * When either the user score or the computer score reaches 5 the user will recive an alert box which displays who won as well as a promt to press ok to restart the game. 
   * There is also a possibility for the user to click the reset score button to make the scores go back to zero.
+
   ![Image of score and reset button](assets/images/score.PNG)
 
 
@@ -47,6 +50,9 @@ Rock, Paper Scissors is a fun game online game to play by yourself or together w
   * The footer displays an icon of the well known Wikipedia symbol. If you press this link it will open in a new tab and bring you to the Wikipedia article about rock, paper, scissors. 
 
   ![Image of footer](assets/images/footer.PNG)
+
+### Features left to implement
+   * When there is time I would like to implement a feature where the user will, instead of receiving an alert box, would get a result message on the site it self and not from a pop up. The javaScipt code is created in a way so that if the score of either user or computer reaches five the score will not increment. This means that if a possible message would appear on the screen it could just have a prompt to press the reset score button and the game would work just fine. 
 
 
 
