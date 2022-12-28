@@ -121,7 +121,7 @@ function incrementScore() {
         yourNewScore.innerText = ++yourScore;
     }
     if (yourNewScore.innerText == 5) {
-        alert('YOU WON! Click ok to restart the game');
+        alert('YOU WON! Click Ok To Restart The Game!');
         cpuScore = 0;
         yourScore = 0;
         cpuNewScore.innerText = 0;
@@ -138,7 +138,7 @@ function incrementComputerScore() {
         cpuNewScore.innerText = ++cpuScore;
     }
     if (cpuNewScore.innerText == 5) {
-        alert('YOU LOSE Click ok to restart the game');
+        alert('YOU LOSE! Click Ok To Restart The Game.');
         cpuScore = 0;
         yourScore = 0;
         cpuNewScore.innerText = 0;
