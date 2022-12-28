@@ -88,6 +88,14 @@ Rock, Paper Scissors is a fun game online game to play by yourself or together w
 
 live link to the website: https://aamandaericson.github.io/Rock-Paper-Scissors-/
 
+## Credits
+### Content
+  * The code for the base game was inspired by a YouTube tutorial. The YouTube channel is "Code with Ania Kubów" and the video name is "3 ways to code Rock Paper Scissors in JavaScript (Beginner to Intermediate to Advanced!)". I used the beginner version as inspiration. 
+
+    link here: https://www.youtube.com/watch?v=RwFeg0cEZvQ&t=2202s
+  * I also, from this video, used the code for the generateComputerChoice() function. I then added code more code to fit my game.
+### Media
+   * The images for this project was taken from Unsplash by the photographer: Fadilah Im.
 
 
 
