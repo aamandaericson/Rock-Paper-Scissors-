@@ -54,6 +54,9 @@ Rock, Paper Scissors is a fun game online game to play by yourself or together w
 ### Features left to implement
    * When there is time I would like to implement a feature where the user will, instead of receiving an alert box, would get a result message on the site it self and not from a pop up. The javaScipt code is created in a way so that if the score of either user or computer reaches five the score will not increment. This means that if a possible message would appear on the screen it could just have a prompt to press the reset score button and the game would work just fine. 
 
+## Responsiveness 
+   * This site use no media queries. Instead I added a width of 75 % which makes the site responive and looks good on all devices. 
+
 
 
 
