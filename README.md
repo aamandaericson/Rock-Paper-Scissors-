@@ -68,14 +68,25 @@ Rock, Paper Scissors is a fun game online game to play by yourself or together w
 
    ![Image of light house check](assets/images/lighthouse.PNG)
 
-## Bugs 
+### Bugs 
    * When I first deployed my page, the scores of the computer and user only whent up to five but you could still play the game (without the score incrementing). By setting the scores to zero when 5 was reached as well as adding the alert to make sure game is restarted this was solved. 
 
-## Validator testing
+### Validator testing
    * HTML 
      * No errors where returned when passing through the official W3C validator.
    * CSS 
      * No errors where found when passing the CSS code through the official (Jigsaw) CSS validator.  
+
+### Unfixed bugs
+   * No unfixed bugs
+
+## Deployment
+   * The site was deployed to GitHub pages. The steps to deploy are as follows:
+     * In the GitHub repository, navigate to settings.
+     * From the source section drop down-menu, select the Main Branch.
+     * Once the min branch has been selected, save and the page provided the link to the completed website.
+
+live link to the website: https://aamandaericson.github.io/Rock-Paper-Scissors-/
 
 
 
