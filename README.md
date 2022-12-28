@@ -60,12 +60,17 @@ Rock, Paper Scissors is a fun online game to play by yourself or together with o
    * I overall wanted playfull colors and I implemented this by basing the color scheme of the images I used to display the user and computer choices. I used a hex color picker where I loaded up one of the images and then picked the colors from the post its in the background. Then I just used a grey color in the body (except for the Header) for contrast.
    * Yellow
    <br>
+
    ![Image of yellow color](assets/images/yellow.PNG)
+
    * Blue 
    <br>
+
    ![Image of blue color](assets/images/blue.PNG)
+
    * Pink
    <br>
+   
    ![Image of pink color](assets/images/pink.PNG)
 
 
