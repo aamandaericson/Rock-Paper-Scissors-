@@ -13,6 +13,7 @@ Rock, Paper Scissors is a fun game online game to play by yourself or together w
 * Result
   * What is first shown in this section is a promt for the user to make a choice by the text "What will you choose"
   * When the user has pressed a button below the result will be shown at the top of the game area. This will show if the computer or the user won the round.
+  <br>
   ![Image of result](assets/images/result.PNG)
 
 * Images of the choices
@@ -56,6 +57,24 @@ Rock, Paper Scissors is a fun game online game to play by yourself or together w
 
 ## Responsiveness 
    * This site use no media queries. Instead I added a width of 75 % which makes the site responive and looks good on all devices. 
+
+## Testing
+   * I tested that the game is playable on multiple browsers (chrome, firefox, safari, edge). The game works on Safari as well however the alert is not recived. The score just resets.
+   * I confirmed that the game results are always correct. 
+   * I confirmed that all the parts (with different colors and fonts) of the website are readable and easy to understand.
+   * I confirmed that the site is responsive and works well on different screen types (Se Responiveness section above) by running a lighthouse check. 
+   <br>
+
+   ![Image of light house check](assets/images/lighthouse.PNG)
+
+## Bugs 
+   * When I first deployed my page, the scores of the computer and user only whent up to five but you could still play the game (without the score incrementing). By setting the scores to zero when 5 was reached as well as adding the alert to make sure game is restarted this was solved. 
+
+## Validator testing
+   * HTML 
+     * No errors where returned when passing through the official W3C validator.
+   * CSS 
+     * No errors where found when passing the CSS code through the official (Jigsaw) CSS validator.  
 
 
 
