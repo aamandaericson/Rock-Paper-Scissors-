@@ -42,7 +42,7 @@ Rock, Paper Scissors is a fun online game to play by yourself or together with o
 
 
 * Rules
-  * If the user is not aware of the rules of the game, or just need a refresher of this, they can easily scroll down and read over the rules section which displays what will beat what in the game. 
+  * If the user is not aware of the rules of the game, or just need a reminder of this, they can easily scroll down and read over the rules section which displays what will beat what in the game. 
 
   ![Image of rules](assets/images/rules.PNG)
 
@@ -52,7 +52,7 @@ Rock, Paper Scissors is a fun online game to play by yourself or together with o
   ![Image of footer](assets/images/footer.PNG)
 
 ### Features left to implement
-   * When there is time I would like to implement a feature where the user will, instead of receiving an alert box, would get a result message on the site it self and not from a pop up. The javaScipt code is created in a way so that if the score of either user or computer reaches five the score will not increment. This means that if a possible message would appear on the screen it could just have a prompt to press the reset score button and the game would work just fine. 
+   * When there is time I would like to implement a feature where the user will, instead of receiving an alert box, get a result message on the site it self and not from a pop up. The javaScipt code is created in a way so that if the score of either user or computer reaches five the score will not increment. This means that if a possible message would appear on the screen it could just have a prompt to press the reset score button and the game would work just fine. 
 
 ## Design
    * The design of this site was made with with the intention of using playful colors to fit the game feeling as well as doing an easy navigate website which is user friendly and easy to use as a first time user. 
